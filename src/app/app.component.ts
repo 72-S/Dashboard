@@ -8,7 +8,6 @@ import { invoke } from "@tauri-apps/api/tauri";
   standalone: true,
   imports: [CommonModule, RouterOutlet],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
 })
 export class AppComponent {
   greetingMessage = "";
